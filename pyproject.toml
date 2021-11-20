@@ -9,12 +9,14 @@ python = "^3.8"
 dacite = "^1.6.0"
 click = "^8.0.3"
 PyYAML = "^6.0"
+webdavclient3 = "^3.14.6"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 rope = "^0.21.0"
 pylint = "^2.11.1"
 black = "^21.9b0"
+ipython = "^7.29.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
